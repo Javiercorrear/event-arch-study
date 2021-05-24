@@ -1,0 +1,13 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "javier",
+    "password": "password",
+    "database": "event_study",
+    "entities": [
+        "src/entity/*.js"
+    ],
+    "logging": true,
+    "synchronize": true
+}
